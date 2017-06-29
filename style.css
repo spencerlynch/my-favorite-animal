@@ -1,6 +1,8 @@
 body {
-	background-color: #81C784;
-	font-family: 'Roboto', sans-serif;
+	/*background-color: #81C784;*/
+	background: url('file:///Users/BigTex/Desktop/IMG_1531.jpg');
+	background-position: top;
+	
 
 }
 
@@ -9,6 +11,7 @@ h1 {
   font-weight: 100;
   font-size: 48px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 
 
 }
@@ -17,23 +20,46 @@ p {
   color: #FFF;
   font-style: italic;
   font-size: 18px;
+  font-family: 'Catamaran', sans-serif;
+  /*text-shadow: 3px 3px black;*/
 }
 
-.image {
-  /* background-size: cover;
+.container {
+  position: relative;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   z-index: 999;
+  left: 350px;
 
 }
 
-.caption {
-	background-color: rgba(76, 175, 80, 0.7);
-	position: relative;
+img { 
+  position: relative;
+  border-radius: 50%;
+
+}
+	
+.bottomleft {
+	display: block;
+	position: absolute;
+	top:290px;
+	bottom: 10px;
+	left: 156px;
+	background-color: rgba(180, 187, 184, 0.7);
 	font-style: normal;
-	display: inline-block;
-	float: left;
 	z-index: 1000;
+	padding: 3px;
+	border-radius: 8px;
 
+}
+a {
+	text-decoration: none;
+}
 
+a:link {
+	color: red;
+}
+a:visited {
+	color: white;
 }
