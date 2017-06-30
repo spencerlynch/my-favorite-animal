@@ -16,12 +16,15 @@ h1 {
 
 }
 
-p {
+.first, .second {
   color: #FFF;
-  font-style: italic;
-  font-size: 18px;
-  font-family: 'Catamaran', sans-serif;
-  /*text-shadow: 3px 3px black;*/
+  font-size: 25px;
+  font-family: 'Chewy', cursive;
+  font-weight: 3px;
+  /*letter-spacing: 3px;*/
+  padding-left: 75px;
+  padding-right: 75px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .container {
@@ -42,10 +45,12 @@ img {
 	
 .bottomleft {
 	display: block;
+	font-family: 'Titan One', cursive;
 	position: absolute;
 	top:290px;
 	bottom: 10px;
 	left: 156px;
+	letter-spacing: 3px;
 	background-color: rgba(180, 187, 184, 0.7);
 	font-style: normal;
 	z-index: 1000;
